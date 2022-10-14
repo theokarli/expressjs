@@ -9,7 +9,7 @@ app.use(bodyParser.raw({ type: "application/vnd.custom-type" }));
 app.use(bodyParser.text({ type: "text/html" }));
 
 app.get("/", async (req, res) => {
-  res.json({ Hello: "Theodorus Karli" });
+  res.json({ Hello: "Theodorus Karli anak dari kampus STMIK KHARISMA MAKASSAR " });
 });
 
 app.listen(port, () => {
